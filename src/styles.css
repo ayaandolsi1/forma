@@ -1,0 +1,257 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url(./public/75.jpg);
+  background-position: center;
+  background-size: cover;
+  font-family: sans-serif;
+  margin-top: 40px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.regform{
+  width: 700px;
+  background-color: rgba(0, 0, 0, 0.699);
+  margin: auto;
+  color: #ffffff;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  border-radius: 15px 15px 0px 0px;
+}
+.mane{
+  background-color: rgb(0, 0, 0,0.5);
+  width: 700px;
+  margin: auto;
+  
+}
+form{
+  padding: 10px;
+}
+#name{
+  width: 100%;
+  height: 100px;
+}
+.name{
+  margin-left: 25px;
+  margin-top: 30px;
+  width: 200px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700px;
+ 
+}
+.firstname{
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  border-radius:6px ;
+  padding: 0 22px;
+  font-size: 16px;
+  box-shadow: 0 0 5px #66afe9;
+  width: 150px;
+}
+.lastname{
+  position:relative ;
+  left: 400px;
+  top: -80px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #ffffff;
+  box-shadow: 0 0 5px #66afe9;
+  width: 150px;
+}
+.firstlabel{
+  position: relative;
+  color: #E5E5E5;
+  text-transform: capitalize;
+  font-size: 14px;
+  left: 203px;
+  top: -45px;
+  
+  
+}
+.lastlabel{
+  position: relative;
+  color: #E5E5E5;
+  text-transform: capitalize;
+  font-size: 14px;
+  left: 430px;
+  top: -75px;
+  
+  
+}
+.numero-carte {
+  display: flex;
+  left: 500px;
+}
+
+.numero-carte input {
+  width: 20px; 
+  margin-right: 5px; 
+  height: 30px;
+  border: 1px solid #ccc; 
+  border-radius: 6px;
+}
+.numero-carte input:focus {
+  outline: none; 
+  box-shadow: 0 0 5px #66afe9; 
+}
+.date-naissance {
+  display: flex;
+}
+
+.date-naissance input,
+.date-naissance span {
+  width: 20px; /* ajustez la largeur selon vos besoins */
+  height: 30px; /* ajustez la hauteur selon vos besoins */
+  margin-right: 5px;
+  border-radius: 6px;
+}
+
+
+
+.date-naissance input:focus {
+  outline: none;
+  box-shadow: 0 0 5px #66afe9;
+}
+
+
+.company{
+  position:relative ;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  width: 380px;
+  font-size:16px;
+  color: #ffffff;
+  box-shadow: 0 0 5px #66afe9;
+}
+.email{
+  position:relative ;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  width: 380px;
+  font-size:16px;
+  color: #ffffff;
+  box-shadow: 0 0 5px #66afe9;
+ 
+}
+.code{
+  
+      position:relative ;
+      left: 200px;
+      top: -37px;
+      line-height: 40px;
+      border-radius: 6px;
+      padding: 0 22px;
+      width: 95px;
+      font-size:16px;
+      color: #ffffff;
+      box-shadow: 0 0 5px #66afe9;
+  
+}
+.number{
+  
+  position:relative ;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  width: 160px;
+  font-size:16px;
+  color: #ffffff;
+  box-shadow: 0 0 5px #66afe9;
+}
+.area_code{
+  position: relative;
+  color: #E5E5E5;
+  text-transform: capitalize;
+  font-size: 16px;
+  left:54px;
+  top:-4px ;
+  
+}
+.phone-number{
+  position: relative;
+  color: #E5E5E5;
+  text-transform: capitalize;
+  font-size: 16px;
+  left:-100px;
+  top:-2px ;
+ 
+ 
+}
+.option{
+  position:relative ;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  width: 430px;
+  font-size:16px;
+  color: #fffcfc;
+  height: 40px;
+  outline: none;
+  overflow: hidden;
+  box-shadow: 0 0 5px #66afe9;
+  cursor: pointer;
+}
+.option option{
+  font-size: 20px;
+  cursor: pointer;
+}
+#coustomer{
+  margin-left: 25px;
+  color: white ;
+  font-size: 18px;
+  
+}
+.radio{
+  display: inline-block;
+  padding-right: 70px;
+  font-size: 25px;
+  margin-left: 25px;
+  margin-top: 15px ;
+  color: white;
+}
+.radio input{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  
+}
+button{
+  background-color: rgba(0, 0, 255, 0.349);
+  display: flex;
+  margin: 20px 0px 0px 20px;
+  text-align: center ;
+  border-radius: 12px;
+  border: 2px solid #366473;
+  padding: 14px 110px;
+  color: white;
+  cursor: pointer;
+  transition: 0.25px;
+  margin-bottom: 2rem; 
+  display: flex; gap: 1.5rem; 
+
+}
+button:hover{
+  background-color: #5390f5;
+}
